@@ -5,6 +5,7 @@
 
 img {
     border-radius: 50%;
+    padding-top: 10px;
 }
 
 .grid {
@@ -29,36 +30,44 @@ img {
 
 .title {
     grid-area: title;
-    align-self: center;
-    display: grid;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.title img {
-    align-items: center;
-}
 
 .header {
     grid-area: header;
-    align-self: center;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
     grid-area: sidebar;
-    align-self: center;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sidebar li {
-    align-items: flex-end;
-}
 
 .content {
     grid-area: content;
-    align-self: center;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
     grid-area: footer;
-    align-self: center;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 736px) {
