@@ -30,6 +30,11 @@ img {
 .title {
     grid-area: title;
     align-self: center;
+    display: grid;
+}
+
+.title img {
+    align-items: center;
 }
 
 .header {
@@ -40,6 +45,10 @@ img {
 .sidebar {
     grid-area: sidebar;
     align-self: center;
+}
+
+.sidebar li {
+    align-items: flex-end;
 }
 
 .content {
