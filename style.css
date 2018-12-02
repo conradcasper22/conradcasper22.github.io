@@ -40,43 +40,28 @@ html, body {
 .title {
     grid-area: title;
     margin: auto;
-    display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 
 .header {
     grid-area: header;
     margin: auto;
-    display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .sidebar {
     grid-area: sidebar;
     margin: auto;
-    display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 
 .content {
     grid-area: content;
     margin: auto;
-    display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer {
     grid-area: footer;
     margin: auto;
-    display: flex;
-  align-items: center;
-  justify-content: flex-end;
 }
 
 @media screen and (min-width: 736px) {
