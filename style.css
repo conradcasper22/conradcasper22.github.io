@@ -26,6 +26,13 @@ html, body {
     
 }
 
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: inherit;
+    color: black;
+}
+
 
 .title {
     grid-area: title;
