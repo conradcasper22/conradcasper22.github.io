@@ -33,6 +33,10 @@ a {
     color: black;
 }
 
+.hover:hover {
+    color: lightcoral;
+}
+
 
 .title {
     grid-area: title;
